@@ -7,6 +7,8 @@ import Info from "./screens/Info";
 import Notifications from "./screens/Notifications";
 
 const Stack = createNativeStackNavigator();
+
+
 export default function App() {
   return (
     <NavigationContainer>
@@ -56,7 +58,7 @@ export default function App() {
             },
           }}
         />
-      </Stack.Navigator>
+              </Stack.Navigator>
     </NavigationContainer>
   );
 }
